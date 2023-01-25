@@ -1,0 +1,107 @@
+﻿title: KellyAndEthan
+tags:
+position: -6,-51
+---
+You are transported to a tiny room with an opaque steel door. From behind the door, you can hear a duet of simple tones.
+One is a high treble synth wave. The melody is intricate and whimsical, like a modern fugue.
+The other is a bumbling baritone, lightly off-key and struggling to keep up with the quick tempo. 
+As the baritone falters and slows down, the treble wraps it's mistakes in an effortless modulation and adagio.
+The musicians play as if they can hear the other before they begin.
+You approach the door and knock, and the baritone stops abruptly.
+You hear a flustered rustling towards the door until it slams wide open, and a mysterious cloaked man with a triangular hat and sunglasses stands behind it.
+???: WELCOOOOME TO THE MOOOOOOOOOOOON! WOOOOOOOOOOOOO!
+Distant voice: Ethan, honey, who's at the door?
+???: Er, uh...
+An android robot with a single rocket booster for legs approaches the door.
+Robot Girl: Ethan, I still need those graduated cylanders washed. You know how corrosive this electrolyte is!
+Ethan: I already washed the graduated cylanders!
+Robot Girl: Those were the erlenmeyer flasks...
+Ethan: Oh...
+Robot Girl: *Ahem*... may I speak to our guest?
+Ethan: Ok... I'm sorry.
+Robot Girl: Hey, I'm not mad at you, OK? It's alright. I know you get excited for visitors.
+Ethan walks away with his head hung in shame
+Robot Girl: Hi, I'm Kelly, welcome to my moon base!
+ -> Hi!
+    <<jump Hello>>
+ -> How did I get here?
+    <<jump HowDidIGetHere>>
+ -> Who was that?
+    <<jump WhoWasThat>>
+===
+title: Hello
+tags:
+position: 329,329
+---
+Kelly: Well, don't wait around. Come on in!
+Kelly leads you through the doorway, and you see a vast open laboratory littered with scraps of metal and dirty chemistry equipment.
+In the distance you can hear a low baritone hum and the clinking of dishes in soapy water.
+<<jump WhatCanIDoForYou>>
+===
+title: HowDidIGetHere
+tags:
+position: -10,145
+---
+Kelly: Hm? How should I know?
+Kelly: You mean you didn't come here on purpose?
+Kelly: This is the MOON and you don't recall how you got here???
+Kelly: I should be asking YOU how you got here!
+<<jump Hello>>
+===
+title: WhoWasThat
+tags:
+position: -327,329
+---
+Kelly: Oh, that's my... 
+Kelly: That's Ethan.
+Kelly: He's sweet, isn't he?
+Kelly: He helped me reboot after I had an embarassing crash landing on Earth.
+Kelly: He's all I can remember from it...
+<<jump Hello>>
+===
+title: WhatCanIDoForYou
+tags:
+position: 333,603
+---
+Kelly: Well, what can I do for you?
+ -> What is this place?
+   <<jump WhatIsThisPlace>>
+ -> I need to get back home.
+   <<jump GoHome>>
+===
+title: WhatIsThisPlace
+tags:
+position: 69,892
+---
+Kelly: This is my moon base, remember?
+Kelly: I work here on my latest and greatest inventions!
+ -> Can I see your inventions?
+      Kelly: Of course!
+      Kelly shows you her inventions. The end.
+ -> I need to get back home.
+   <<jump GoHome>>
+===
+title: GoHome
+tags:
+position: 596,897
+---
+Kelly: Well, just head back through the teleporter where you came from!
+Kelly points back at the small room, and you notice smoke bellowing out from the cracks in the floor
+Kelly: Uh oh...
+Kelly: Ethan! Get the fire extinguisher!
+Ethan leaps from the shadows in an instant, fire extinguisher already in hand.
+He lands in a heroic pose - his knees bent, fire extinguisher held out to the side, and his left hand pushing his sunglasses farther up his nose.
+Ethan: I was born ready for this...
+Kelly: The teleporter is on-
+Ethan sprints into the teleporting chamber, rips up one of the metal floor plates and douses the machinery beneath with a cooling foam
+Ethan: And once again-
+Kelly: You don't have to do this...
+Ethan: THE DAY IS SAVED!!!
+Ethan lifts the fire extinguisher above his head and holds perfectly steady, seemingly forever.
+Kelly: He's freeze framing again...
+Kelly: I was really hoping as a human he wouldn't lock up like this, but I guess nobody's perfect.
+Kelly: Oh, and that means the teleporter is busted.
+Kelly cracks a glowing smile
+Kelly: You're stuck here!
+You are now stuck here. The end.
+===
