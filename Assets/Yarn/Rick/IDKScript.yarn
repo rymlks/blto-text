@@ -1,0 +1,117 @@
+﻿title: IDKScript
+tags:
+position: -11,-252
+---
+So anyway this is hell and you're already dead.
+This is as good as it gets. You died a while ago.
+It all started in 2021, when things seemed to look OK.
+You're in a well-kept amusement park from the future.
+It's completely barren except for the employees, and a couple bored kids playing fortnite in roblox inder the shade of the awning in front of the beer pong scam booth
+<<jump Options>>
+===
+title: Options
+tags:
+position: -13,-17
+---
+What would you like to do?
+ -> Go play fortnite in roblox
+    <<jump Fortnite>>
+ -> Scold the children for their poor taste in media
+    <<jump Scold>>
+ -> Fall for the beer pong scam
+    <<jump BeerPong>>
+ -> Die again
+    <<jump IDKScript>>
+ -> Get in line for a rollercoaster.
+    <<jump Rollercoaster>>
+===
+title: Fortnite
+tags:
+position: 322,220
+---
+Oops i didnt write it
+===
+title: Scold
+tags:
+position: -13,222
+---
+Oops i didnt write it
+===
+title: BeerPong
+tags:
+position: -406,236
+---
+You approach the BeerPong scam
+Carnie: Come one come all!
+Carnie: Step right up and win a new guitar!
+The guitars are of supremely subpar quality
+Carnie: You there! First one's free, wanna give it a try?
+ -> Give it a try
+    <<jump GetScammed>>
+ -> Go back
+    <<jump Options>>
+===
+title: GetScammed
+tags:
+position: -406,431
+---
+The carnie hands you three ping-pong balls
+<<set $ballCount to 3>>
+Carnie: Just sink all three balls to win a prize! Sink them in the blue cups to win a new guitar!
+<<if $beenScammed != 1>>
+<<set $cost to 10>>
+You recall that you have nowhere to put a guitar other than to hold it in your hands
+<<endif>>
+<<jump TossOptions>>
+===
+title: TossOptions
+tags:
+position: -407,625
+---
+<<set $beenScammed to 1>>
+Carnie: Go ahead, give it a try!
+ -> Toss a ball
+    <<jump TossABall>>
+ -> Toss a ball, but aim for the blue cup
+    <<jump TossABallBlue>>
+===
+title: TossABall
+tags:
+position: -207,932
+---
+<<set $ballCount = $ballCount - 1>>
+You toss the ball at the array of cups
+Carnie: Ooh, you missed!
+<<if $ballCount == 0>>
+    <<jump PlayAgain>>
+<<else>>
+    <<jump TossOptions>>
+<<endif>>
+===
+title: TossABallBlue
+tags:
+position: -619,941
+---
+<<set $ballCount = $ballCount - 1>>
+You toss the ball at the array of cups, making an effort to hit the blue cups.
+Carnie: Ah, close one!
+<<if $ballCount == 0>>
+    <<jump PlayAgain>>
+<<else>>
+    <<jump TossOptions>>
+<<endif>>
+===
+title: PlayAgain
+tags:
+position: -828,662
+---
+Carnie: Well, that's it! So close this time!
+Carnie: First one's free, but the rest are ${$cost}.
+<<set $cost = $cost * 2>>
+ -> Pay
+    <<jump GetScammed>>
+ -> Pay
+    <<jump GetScammed>>
+ -> Pay
+    <<jump GetScammed>>
+===
