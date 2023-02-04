@@ -1,11 +1,22 @@
-﻿title: Start
+﻿title: RickStart
+position: -8,-108
 ---
-Wow!
-My first ever Yarn script in Unity!
+Mysterious Stranger With A Really Long Name: Heh, I bet you're [wave]wondering[/wave] why my name and dialogue is so long. Well, if you want me to tell you, you better traverse this dialogue tree in the correct order, or else you'll have to restart the game and pretend like we've never had this conversationi before. Heh.
+-> Shut up
+    Mysterious Stranger With A Really Long Name: I don't need to take this kind of criticism. How about you pay attention for three seconds and just read one damn paragraph? What, did you want me to record a 5 minute youtube video about it and make you wantch me rattle off 45 sponsor reads for League Shading Guilds or whatever? "What's up guys, today we're gonna play the learn how to read challenge (ITS IMPOSSIBLE!@!!!!)." That's how stupid you sound.
+-> Whatever
+    Mysterious Stranger With A Really Long Name: I don't need to take this kind of criticism. How about you pay attention for three seconds and just read one damn paragraph? What, did you want me to record a 5 minute youtube video about it and make you wantch me rattle off 45 sponsor reads for League Shading Guilds or whatever? "What's up guys, today we're gonna play the learn how to read challenge (ITS IMPOSSIBLE!@!!!!)." That's how stupid you sound.
+-> Hey buddy, there was no need to render such a long piece of dialogue. It seriously helps readbility if you separate your thoughts into small chunks for the player to read individually. Next time try thinking about your playerbase and how that giant wall of text makes them feel. You got a lot of growing up to do, bud.
+    <<jump LongOption>>
 
--> Gosh!
--> Incredible!
--> I'm amazed!
-
-Anyway, time to get writing!
+===
+title: ShortOption
+position: -122,23
+---
+Mysterious Stranger With A Really Long Name: I don't need to take this kind of criticism. How about you pay attention for three seconds and just read one damn paragraph? What, did you want me to record a 5 minute youtube video about it and make you wantch me rattle off 45 sponsor reads for League Shading Guilds or whatever? "What's up guys, today we're gonna play the learn how to read challenge (ITS IMPOSSIBLE!@!!!!)." That's how stupid you sound.
+===
+title: LongOption
+position: 75,19
+---
+Greg: Ok bye
 ===
